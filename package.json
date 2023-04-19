@@ -1,0 +1,30 @@
+{
+  "name": "kaholo-plugin-testecho",
+  "version": "1.0.0",
+  "description": "A test plugin for internal Kaholo test purposes",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx jest .",
+    "lint": "npx eslint .",
+    "lint:fix": "npx eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaholo/kaholo-plugin-testecho.git"
+  },
+  "author": "Kaholo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaholo/kaholo-plugin-testecho/issues"
+  },
+  "homepage": "https://github.com/Kaholo/kaholo-plugin-testecho#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.5.0"
+  },
+  "dependencies": {
+    "@kaholo/plugin-library": "^2.1.2"
+  }
+}
