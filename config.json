@@ -34,8 +34,8 @@
         "name": "authString02",
         "viewName": "Auth String 02 - with config.json default value",
         "type": "string",
-        "description": "This should default to \"configured\" without being configured",
-        "default": "configured",
+        "description": "This should default to \"defaulted\" without being configured",
+        "default": "defaulted",
         "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
       },
       {
@@ -60,8 +60,8 @@
       "name": "settingString02",
       "viewName": "Setting String 02 - with config.json default value",
       "type": "string",
-      "description": "This should default to \"configured\" without being configured",
-      "default": "configured",
+      "description": "This should default to \"defaulted\" without being configured",
+      "default": "defaulted",
       "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
     },
     {
@@ -75,8 +75,8 @@
   ],
   "methods": [
     {
-      "name": "testStringSettingsAndAccounts",
-      "viewName": "Test String Settings and Accounts",
+      "name": "testStringsBasic",
+      "viewName": "Test String Params, Settings, and Accounts",
       "params": [
         {
           "name": "testRunName",
@@ -86,7 +86,30 @@
           "placeholder": "Run-00001",
           "description": "Any string to identify this test run",
           "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
-        }
+        },
+        {
+          "name": "paramString01",
+          "viewName": "Param String 01 - unconfigured",
+          "type": "string",
+          "description": "Leave this unconfigured",
+          "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+        },
+        {
+          "name": "paramString02",
+          "viewName": "Param String 02 - with config.json default value",
+          "type": "string",
+          "description": "This should default to \"defaulted\" without being configured",
+          "default": "defaulted",
+          "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+        },
+        {
+          "name": "paramString03",
+          "viewName": "Param String 03 - user configured, required",
+          "type": "string",
+          "description": "Configure this to something as a user",
+          "required": true,
+          "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+        }    
       ]
     }
   ]
