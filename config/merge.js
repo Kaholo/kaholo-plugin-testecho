@@ -7,7 +7,7 @@ const configVault = JSON.parse(fs.readFileSync("./configVault.json"));
 const configOptions = JSON.parse(fs.readFileSync("./configOptions.json"));
 const configBoolean = JSON.parse(fs.readFileSync("./configBoolean.json"));
 const configInt = JSON.parse(fs.readFileSync("./configInt.json"));
-// const configAutocomplete = JSON.parse(fs.readFileSync("./configAutocomplete.json"));
+const configAutocomplete = JSON.parse(fs.readFileSync("./configAutocomplete.json"));
 
 const config = configMain;
 
@@ -34,6 +34,7 @@ config.methods = config.methods.concat(
   configOptions.methods,
   configBoolean.methods,
   configInt.methods,
+  configAutocomplete.methods,
 );
 
 try {
