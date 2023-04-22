@@ -1,0 +1,92 @@
+{
+  "auth": {
+    "params": [
+      {
+        "name": "authVault01",
+        "viewName": "Auth Vault 01 - unconfigured",
+        "type": "vault",
+        "description": "Leave this unconfigured",
+        "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+      },
+      {
+        "name": "authVault02",
+        "viewName": "Auth Vault 02 - user configured, NOT required",
+        "type": "vault",
+        "description": "This is not required",
+        "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+      },
+      {
+        "name": "authVault03",
+        "viewName": "Auth Vault 03 - user configured, required",
+        "type": "vault",
+        "description": "Configure this to something as a user",
+        "required": true,
+        "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+      }
+    ]
+  },
+  "settings": [
+    {
+      "name": "settingVault01",
+      "viewName": "Setting Vault 01 - unconfigured",
+      "type": "vault",
+      "description": "Leave this unconfigured",
+      "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+    },
+    {
+      "name": "settingVault02",
+      "viewName": "Setting Vault 02 - not required",
+      "type": "vault",
+      "description": "This setting is not required, but as param it is required",
+      "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+    },
+    {
+      "name": "settingVault03",
+      "viewName": "Setting Vault 03 - user configured, required",
+      "type": "vault",
+      "description": "Configure this to something as a user",
+      "required": true,
+      "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+    }
+  ],
+  "methods": [
+    {
+      "name": "testVaultBasic",
+      "viewName": "Test Vault Params, Settings, and Accounts",
+      "params": [
+        {
+          "name": "testRunName",
+          "viewName": "testRunName for Final Result",
+          "type": "string",
+          "required": false,
+          "placeholder": "Run-00001",
+          "description": "Any string to identify this test run",
+          "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+        },
+        {
+          "name": "paramVault01",
+          "viewName": "Param Vault 01 - unconfigured",
+          "type": "vault",
+          "description": "Leave this unconfigured",
+          "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+        },
+        {
+          "name": "paramVault02",
+          "viewName": "Param Vault 02 - required although setting is not",
+          "type": "vault",
+          "description": "This parameter is required",
+          "required": true,
+          "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+        },
+        {
+          "name": "paramVault03",
+          "viewName": "Param Vault 03 - user configured, required",
+          "type": "vault",
+          "description": "Configure this to something as a user",
+          "required": true,
+          "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+        }
+      ]
+    }
+  ]
+}
