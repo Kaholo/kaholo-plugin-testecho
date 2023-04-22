@@ -6,7 +6,7 @@
   "execProgram": "node",
   "exposeRoute": false,
   "imgUrl": "logo.png",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This plugin is used only to test Kaholo functionality.",
   "category": [
     "Testing"
