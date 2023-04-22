@@ -1,4 +1,4 @@
-async function testStringsBasic(params, { settings }) {
+async function testStringBasic(params, { settings }) {
   const {
     authString01,
     authString02,
@@ -34,5 +34,5 @@ async function testStringsBasic(params, { settings }) {
 }
 
 module.exports = {
-  testStringsBasic,
+  testStringBasic,
 };

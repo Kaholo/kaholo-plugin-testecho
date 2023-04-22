@@ -1,6 +1,8 @@
 const { bootstrap } = require("@kaholo/plugin-library");
-const strings = require("./strings");
+const typeString = require("./typeString");
+const typeText = require("./typeText");
 
 module.exports = bootstrap({
-  testStringsBasic: strings.testStringsBasic,
+  testStringBasic: typeText.testStringBasic,
+  testTextBasic: typeText.testTextBasic,
 });
