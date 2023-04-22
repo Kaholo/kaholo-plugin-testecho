@@ -30,6 +30,10 @@
           "viewName": "Param Autocomplete 02 - with config.json default value",
           "type": "autocomplete",
           "functionName": "pickLetter",
+          "default": {
+            "id": "E",
+            "value": "echo"
+          },
           "description": "This should default to \"echo\" without being configured",
           "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
         },
