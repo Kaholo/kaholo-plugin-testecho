@@ -54,7 +54,7 @@
   "methods": [
     {
       "name": "testTextBasic",
-      "viewName": "Test Text Params, Settings, and Accounts",
+      "viewName": "Basic Text",
       "params": [
         {
           "name": "testRunName",

@@ -54,7 +54,7 @@
   "methods": [
     {
       "name": "testStringBasic",
-      "viewName": "Test String Params, Settings, and Accounts",
+      "viewName": "Basic String",
       "params": [
         {
           "name": "testRunName",

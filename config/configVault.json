@@ -52,7 +52,7 @@
   "methods": [
     {
       "name": "testVaultBasic",
-      "viewName": "Test Vault Params, Settings, and Accounts",
+      "viewName": "Basic Vault",
       "params": [
         {
           "name": "testRunName",
