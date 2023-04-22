@@ -1,0 +1,254 @@
+{
+  "auth": {
+    "params": [
+      {
+        "name": "authOptions01",
+        "viewName": "Auth Options 01 - unconfigured",
+        "type": "options",
+        "options": [
+          {
+            "id": "optFlux",
+            "name": "Flux Capacitor"
+          },
+          {
+            "id": "optLatinum",
+            "name": "Gold-pressed Latinum"
+          },
+          {
+            "id": "optPoe",
+            "name": "Once upon a midnight dreary, while I pondered weak and weary..."
+          },
+          {
+            "id": "optDefault",
+            "name": "default option"
+          }
+        ],
+        "description": "Leave this unconfigured",
+        "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+      },
+      {
+        "name": "authOptions02",
+        "viewName": "Auth Options 02 - user configured, NOT required",
+        "type": "options",
+        "options": [
+          {
+            "id": "optFlux",
+            "name": "Flux Capacitor"
+          },
+          {
+            "id": "optLatinum",
+            "name": "Gold-pressed Latinum"
+          },
+          {
+            "id": "optPoe",
+            "name": "Once upon a midnight dreary, while I pondered weak and weary..."
+          },
+          {
+            "id": "optDefault",
+            "name": "default option"
+          }
+        ],
+        "description": "This is not required",
+        "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+      },
+      {
+        "name": "authOptions03",
+        "viewName": "Auth Options 03 - user configured, required",
+        "type": "options",
+        "options": [
+          {
+            "id": "optFlux",
+            "name": "Flux Capacitor"
+          },
+          {
+            "id": "optLatinum",
+            "name": "Gold-pressed Latinum"
+          },
+          {
+            "id": "optPoe",
+            "name": "Once upon a midnight dreary, while I pondered weak and weary..."
+          },
+          {
+            "id": "optDefault",
+            "name": "default option"
+          }
+        ],
+        "description": "Configure this to something as a user",
+        "required": true,
+        "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+      }
+    ]
+  },
+  "settings": [
+    {
+      "name": "settingOptions01",
+      "viewName": "Setting Options 01 - unconfigured",
+      "type": "options",
+      "options": [
+        {
+          "id": "optFlux",
+          "name": "Flux Capacitor"
+        },
+        {
+          "id": "optLatinum",
+          "name": "Gold-pressed Latinum"
+        },
+        {
+          "id": "optPoe",
+          "name": "Once upon a midnight dreary, while I pondered weak and weary..."
+        },
+        {
+          "id": "optDefault",
+          "name": "default option"
+        }
+      ],
+      "description": "Leave this unconfigured",
+      "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+    },
+    {
+      "name": "settingOptions02",
+      "viewName": "Setting Options 02 - not required",
+      "type": "options",
+      "options": [
+        {
+          "id": "optFlux",
+          "name": "Flux Capacitor"
+        },
+        {
+          "id": "optLatinum",
+          "name": "Gold-pressed Latinum"
+        },
+        {
+          "id": "optPoe",
+          "name": "Once upon a midnight dreary, while I pondered weak and weary..."
+        },
+        {
+          "id": "optDefault",
+          "name": "default option"
+        }
+      ],
+      "description": "This setting is not required, but as param it is required",
+      "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+    },
+    {
+      "name": "settingOptions03",
+      "viewName": "Setting Options 03 - user configured, required",
+      "type": "options",
+      "options": [
+        {
+          "id": "optFlux",
+          "name": "Flux Capacitor"
+        },
+        {
+          "id": "optLatinum",
+          "name": "Gold-pressed Latinum"
+        },
+        {
+          "id": "optPoe",
+          "name": "Once upon a midnight dreary, while I pondered weak and weary..."
+        },
+        {
+          "id": "optDefault",
+          "name": "default option"
+        }
+      ],
+      "description": "Configure this to something as a user",
+      "required": true,
+      "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+    }
+  ],
+  "methods": [
+    {
+      "name": "testOptionsBasic",
+      "viewName": "Basic Options",
+      "params": [
+        {
+          "name": "testRunName",
+          "viewName": "testRunName for Final Result",
+          "type": "string",
+          "required": false,
+          "placeholder": "Run-00001",
+          "description": "Any string to identify this test run",
+          "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+        },
+        {
+          "name": "paramOptions01",
+          "viewName": "Param Options 01 - unconfigured",
+          "type": "options",
+          "options": [
+            {
+              "id": "optFlux",
+              "name": "Flux Capacitor"
+            },
+            {
+              "id": "optLatinum",
+              "name": "Gold-pressed Latinum"
+            },
+            {
+              "id": "optPoe",
+              "name": "Once upon a midnight dreary, while I pondered weak and weary..."
+            },
+            {
+              "id": "optDefault",
+              "name": "default option"
+            }
+          ],  
+          "description": "Leave this unconfigured",
+          "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+        },
+        {
+          "name": "paramOptions02",
+          "viewName": "Param Options 02 - required although setting is not",
+          "type": "options",
+          "options": [
+            {
+              "id": "optFlux",
+              "name": "Flux Capacitor"
+            },
+            {
+              "id": "optLatinum",
+              "name": "Gold-pressed Latinum"
+            },
+            {
+              "id": "optPoe",
+              "name": "Once upon a midnight dreary, while I pondered weak and weary..."
+            },
+            {
+              "id": "optDefault",
+              "name": "default option"
+            }
+          ],  
+          "description": "This parameter is required",
+          "required": true,
+          "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+        },
+        {
+          "name": "paramOptions03",
+          "viewName": "Param Options 03 - user configured, required",
+          "type": "options",
+          "options": [
+            {
+              "id": "optFlux",
+              "name": "Flux Capacitor"
+            },
+            {
+              "id": "optLatinum",
+              "name": "Gold-pressed Latinum"
+            },
+            {
+              "id": "optPoe",
+              "name": "Once upon a midnight dreary, while I pondered weak and weary..."
+            },
+            {
+              "id": "optDefault",
+              "name": "default option"
+            }
+          ],  
+          "description": "Configure this to something as a user",
+          "required": true,
+          "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+        }
+      ]
+    }
+  ]
+}
