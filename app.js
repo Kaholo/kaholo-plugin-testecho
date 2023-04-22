@@ -4,6 +4,7 @@ const typeText = require("./typeText");
 const typeVault = require("./typeVault");
 const typeOptions = require("./typeOptions");
 const typeBoolean = require("./typeBoolean");
+const typeInt = require("./typeInt");
 
 module.exports = bootstrap({
   testStringBasic: typeString.testStringBasic,
@@ -11,4 +12,5 @@ module.exports = bootstrap({
   testVaultBasic: typeVault.testVaultBasic,
   testOptionsBasic: typeOptions.testOptionsBasic,
   testBooleanBasic: typeBoolean.testBooleanBasic,
+  testIntBasic: typeInt.testIntBasic,
 });

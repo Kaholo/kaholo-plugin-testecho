@@ -1,0 +1,94 @@
+{
+  "auth": {
+    "params": [
+      {
+        "name": "authInt01",
+        "viewName": "Auth Int 01 - unconfigured",
+        "type": "int",
+        "description": "Leave this unconfigured",
+        "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+      },
+      {
+        "name": "authInt02",
+        "viewName": "Auth Int 02 - with config.json default value",
+        "type": "int",
+        "description": "This should default to 987654321 without being configured",
+        "default": 987654321,
+        "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+      },
+      {
+        "name": "authInt03",
+        "viewName": "Auth Int 03 - user configured, required",
+        "type": "int",
+        "description": "Configure this to something as a user",
+        "required": true,
+        "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+      }
+    ]
+  },
+  "settings": [
+    {
+      "name": "settingInt01",
+      "viewName": "Setting Int 01 - unconfigured",
+      "type": "int",
+      "description": "Leave this unconfigured",
+      "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+    },
+    {
+      "name": "settingInt02",
+      "viewName": "Setting Int 02 - with config.json default value",
+      "type": "int",
+      "description": "This should default to -987654321 without being configured",
+      "default": -987654321,
+      "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+    },
+    {
+      "name": "settingInt03",
+      "viewName": "Setting Int 03 - user configured, required",
+      "type": "int",
+      "description": "Configure this to something as a user",
+      "required": true,
+      "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+    }
+  ],
+  "methods": [
+    {
+      "name": "testIntBasic",
+      "viewName": "Basic Int",
+      "params": [
+        {
+          "name": "testRunName",
+          "viewName": "testRunName for Final Result",
+          "type": "string",
+          "required": false,
+          "placeholder": "Run-00001",
+          "description": "Any string to identify this test run",
+          "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+        },
+        {
+          "name": "paramInt01",
+          "viewName": "Param Int 01 - unconfigured",
+          "type": "int",
+          "description": "Leave this unconfigured",
+          "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+        },
+        {
+          "name": "paramInt02",
+          "viewName": "Param Int 02 - with config.json default value",
+          "type": "int",
+          "description": "This should default to 451 without being configured",
+          "default": 451,
+          "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+        },
+        {
+          "name": "paramInt03",
+          "viewName": "Param Int 03 - user configured, required",
+          "type": "int",
+          "description": "Configure this to something as a user",
+          "required": true,
+          "learnUrl": "https://kaholo.io/docs/kaholo-getting-started/"
+        }
+      ]
+    }
+  ]
+}

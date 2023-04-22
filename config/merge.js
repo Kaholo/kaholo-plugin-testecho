@@ -6,7 +6,7 @@ const configText = JSON.parse(fs.readFileSync("./configText.json"));
 const configVault = JSON.parse(fs.readFileSync("./configVault.json"));
 const configOptions = JSON.parse(fs.readFileSync("./configOptions.json"));
 const configBoolean = JSON.parse(fs.readFileSync("./configBoolean.json"));
-// const configInt = JSON.parse(fs.readFileSync("./configInt.json"));
+const configInt = JSON.parse(fs.readFileSync("./configInt.json"));
 // const configAutocomplete = JSON.parse(fs.readFileSync("./configAutocomplete.json"));
 
 const config = configMain;
@@ -17,6 +17,7 @@ config.auth.params = config.auth.params.concat(
   configVault.auth.params,
   configOptions.auth.params,
   configBoolean.auth.params,
+  configInt.auth.params,
 );
 config.settings = config.settings.concat(
   configString.settings,
@@ -24,6 +25,7 @@ config.settings = config.settings.concat(
   configVault.settings,
   configOptions.settings,
   configBoolean.settings,
+  configInt.settings,
 );
 config.methods = config.methods.concat(
   configString.methods,
@@ -31,6 +33,7 @@ config.methods = config.methods.concat(
   configVault.methods,
   configOptions.methods,
   configBoolean.methods,
+  configInt.methods,
 );
 
 try {
